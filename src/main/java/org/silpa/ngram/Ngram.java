@@ -10,6 +10,10 @@ import java.util.List;
  */
 public class Ngram {
 
+    public static final int NGRAM_TYPE_WORD = 0;
+    public static final int NGRAM_TYPE_SYLLABLE = 1;
+    public static final int NGRAM_TYPE_LETTER = 2;
+
     private Syllabifier syllabifier;
     private static final int DEFAULT_NGRAMS_WINDOW_SIZE = 2;
 
