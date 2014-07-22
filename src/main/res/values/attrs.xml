@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common attributes -->
+    <attr name="ngramNValue" format="integer" />
+    <attr name="ngramType" format="enum">
+        <enum name="word" value="0" />
+        <enum name="syllable" value="1" />
+        <enum name="letter" value="2" />
+    </attr>
+
+    <!-- Attributes for NgramEditText -->
+    <declare-styleable name="NgramEditText">
+        <attr name="ngramNValue" />
+        <attr name="ngramType" />
+    </declare-styleable>
+
+    <!-- Attributes for NgramTextView -->
+    <declare-styleable name="NgramTextView">
+        <attr name="ngramNValue" />
+        <attr name="ngramType" />
+    </declare-styleable>
+</resources>
