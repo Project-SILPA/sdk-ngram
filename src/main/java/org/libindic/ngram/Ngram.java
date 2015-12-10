@@ -1,6 +1,6 @@
-package org.silpa.ngram;
+package org.libindic.ngram;
 
-import org.silpa.syllabifier.Syllabifier;
+import org.libindic.syllabifier.Syllabifier;
 
 import java.util.ArrayList;
 import java.util.List;
